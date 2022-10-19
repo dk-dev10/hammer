@@ -1,4 +1,4 @@
-import { DashboardOutlined, UserOutlined } from '@ant-design/icons';
+import { DashboardOutlined, UserOutlined, BuildOutlined } from '@ant-design/icons';
 import { APP_PREFIX_PATH } from 'configs/AppConfig';
 
 const dashBoardNavTree = [
@@ -15,6 +15,14 @@ const dashBoardNavTree = [
     path: `${APP_PREFIX_PATH}/users`,
     title: 'users',
     icon: UserOutlined,
+    breadcrumb: false,
+    submenu: [],
+  },
+  {
+    key: 'planner',
+    path: `${APP_PREFIX_PATH}/planner`,
+    title: 'planner',
+    icon: BuildOutlined,
     breadcrumb: false,
     submenu: [],
   },

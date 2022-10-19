@@ -1,6 +1,7 @@
 {
 	"home": "Home",
 	"users": "Users",
+	"planner": "Planner",
 	"users.edit-profile": "Edit Profile",
 	"sidenav.dashboard": "Dashboard",
 	"sidenav.dashboard.default": "Default",
